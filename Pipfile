@@ -10,7 +10,6 @@ datetime = "*"
 pandas = "*"
 polars = "*"
 psutil = "*"
-pyobjc = "*"
 
 [dev-packages]
 
