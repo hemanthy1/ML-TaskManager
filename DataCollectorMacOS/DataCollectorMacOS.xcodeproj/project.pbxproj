@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4003EAD32A0FF157006B2C18 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003EAD22A0FF157006B2C18 /* main.swift */; };
+		406EDCB02A15456C003DD61B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406EDCAF2A15456B003DD61B /* Foundation.framework */; };
+		406EDCB22A154573003DD61B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406EDCB12A154573003DD61B /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4003EACF2A0FF157006B2C18 /* DataCollectorMacOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataCollectorMacOS; sourceTree = BUILT_PRODUCTS_DIR; };
+		4003EACF2A0FF157006B2C18 /* DataCollectorMacOS */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = text.script; path = DataCollectorMacOS; sourceTree = BUILT_PRODUCTS_DIR; };
 		4003EAD22A0FF157006B2C18 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		406EDCAF2A15456B003DD61B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		406EDCB12A154573003DD61B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		406EEB212A15AF3400BB4065 /* Open_At_Launch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Open_At_Launch.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406EDCB22A154573003DD61B /* Cocoa.framework in Frameworks */,
+				406EDCB02A15456C003DD61B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +48,9 @@
 		4003EAC62A0FF157006B2C18 = {
 			isa = PBXGroup;
 			children = (
-				4003EAD12A0FF157006B2C18 /* DataCollectorMacOS */,
+				4003EAD12A0FF157006B2C18 /* Swift */,
 				4003EAD02A0FF157006B2C18 /* Products */,
+				406EDCAE2A15456B003DD61B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +62,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4003EAD12A0FF157006B2C18 /* DataCollectorMacOS */ = {
+		4003EAD12A0FF157006B2C18 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
 				4003EAD22A0FF157006B2C18 /* main.swift */,
+				406EEB212A15AF3400BB4065 /* Open_At_Launch.plist */,
 			);
-			path = DataCollectorMacOS;
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		406EDCAE2A15456B003DD61B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				406EDCB12A154573003DD61B /* Cocoa.framework */,
+				406EDCAF2A15456B003DD61B /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
