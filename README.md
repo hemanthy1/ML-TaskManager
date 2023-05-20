@@ -11,7 +11,7 @@
 #Choose Application
 #Run Shell Script 
 #Enter /usr/bin/swift /path/to/your/swift/script.swift
-#Then Save and name aplkication whatever
+#Then Save and name application
 
 
 #Automation
