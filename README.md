@@ -18,15 +18,15 @@
     <li>Enter /usr/bin/swift /path/to/your/swift/script.swift</li>
     <li>Then Save and name application</li>
 </ul>
-<h3 align="left">Automating Data Collection</h3>
+<h3 align="left">Automating Data Collection:</h3>
 <ul>
   <li>Go To System Settings</li>
   <li>Search for Login Items</li>
   <li>Click + icon to add application on login</li>
   </ul>
-<h4>Now it work in the background and be displayed in the menu bar as gear icon!</h4>
+<h4>Now it should be running in the background and be displayed in the menu bar as a gear icon!</h4>
 
 #
 
 <br/>
-Code will be published at a later date in order to not encounter copyright issues that may arise
+Code will be published at a later date in order to not encounter any copyright issues that may arise
