@@ -29,4 +29,4 @@
 #
 
 <br/>
-Code will be published at a later date in order to not encounter any copyright issues that may arise
+Transformer model will be published at a later date.
