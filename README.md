@@ -29,4 +29,4 @@
 #
 
 <br/>
-Transformer model will be published at a later date.
+Transformer model will be published alongside research paper
