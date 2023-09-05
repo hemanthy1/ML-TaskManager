@@ -7,7 +7,7 @@
 </ul>
  
 
-#
+
 
 <h3 align="left">Setting Up Data Collection:</h3>
 <ul>
@@ -26,7 +26,9 @@
   </ul>
 <h4>Now it should be running in the background and be displayed in the menu bar as a gear icon!</h4>
 
-#
 
-<br/>
-Transformer model will be published alongside research paper
+<hr>
+<h2>
+  Transformer Model, Training, and Fine Tuning
+</h2>
+Model will be published alongside research paper
